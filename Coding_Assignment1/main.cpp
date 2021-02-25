@@ -1,3 +1,7 @@
+//CODING ASSIGNMENT 1
+//FINDING_TARGET_SUM
+//Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+
 #include<iostream>
 #include<string>
 
@@ -177,7 +181,8 @@ int main()
 	result[6] = TestRepetitiveNum(&target[6]);
 	result[7] = TestSameNum(&target[7]);
 	result[8] = TestDynamicIp(&target[8]);
-	//Display result for all positive case
+
+	//Display results 
 	std::cout << "\n--------------------RESULTS---------------------------\n";
 	for (int i = 0; i < 9; i++)
 	{
@@ -190,4 +195,5 @@ int main()
 	
 	return 0;
 }
+
 
